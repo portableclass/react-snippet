@@ -40,7 +40,6 @@ module.exports = {
     },
     output: {
         path: PATHS.dist,
-        publicPath: '/',
         filename: `${PATHS.assets}/js/[name].[contenthash].js`,
         assetModuleFilename: `${PATHS.assets}/[hash][ext][query]`,
         clean: true,
